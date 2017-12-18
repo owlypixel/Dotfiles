@@ -1,0 +1,12 @@
+------General stuff--------
+On Ubuntu my .vimrc file was located in /usr/share/vim/vimrc
+set path? // check what's in the PATH variable
+:find <name> // search for a file
+:ls // list buffers 
+:b <partial> //	display the first buffer matching the partial name (or press Tab for name completion)
+:bd // delete buffer
+------Autocompletion--------
+Ctrl+N // autocompletion
+Ctrl+X, Ctrl+F // file name completion
+------Editing files--------
+edit: . //opens file browser
