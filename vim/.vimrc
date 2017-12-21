@@ -13,3 +13,10 @@ set numbers
 
 " highlight cursor line
 set cursorline
+
+" start pathogen
+execute pathogen#infect()
+call pathogen#helptags()
+
+" mappings
+map <C-b> :NERDTreeToggle<CR>

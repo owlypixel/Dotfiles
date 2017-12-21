@@ -5,8 +5,17 @@ set path? // check what's in the PATH variable
 :ls // list buffers 
 :b <partial> //	display the first buffer matching the partial name (or press Tab for name completion)
 :bd // delete buffer
+vim . // open current directory in vim
+Ctrl+w w // move between windows 
 ------Autocompletion--------
 Ctrl+N // autocompletion
 Ctrl+X, Ctrl+F // file name completion
 ------Editing files--------
 edit: . //opens file browser
+------NerdTree-------------
+m // shows menu
+------Installing plugins----
+--Pathogen-----------------
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+---------------------------
