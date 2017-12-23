@@ -9,7 +9,7 @@ filetype plugin on
 set path+=**
 
 " show line numbers
-set numbers
+set number
 
 " highlight cursor line
 set cursorline
