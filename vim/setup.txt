@@ -14,15 +14,19 @@ Install NERDTree
 $ cd ~/.vim/bundle
 $ git clone https://github.com/scrooloose/nerdtree.git
 
-Install Dracula color theme
+Install Dracula color theme and move the dracula.vim file into ~/.vim/colors
 
-https://github.com/dracula/vim/blob/master/colors/dracula.vim
-Move the dracula.vim file into ~/.vim/colors
+$ cd ~/.vim/colors
+$ curl -O https://github.com/dracula/vim/blob/master/colors/dracula.vim
 
 Install Vim-Airline
 
 $ git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
 
+Set cursor in terminal profile preferences to I-Beam
+
 Copy your personal .vimrc file to the home directory 
+$ cd ~
+$ curl -O https://raw.githubusercontent.com/owlypixel/Dotfiles/master/vim/.vimrc
 
 Enjoy your beautiful and functional editor! 
