@@ -12,6 +12,15 @@ Ctrl+N // autocompletion
 Ctrl+X, Ctrl+F // file name completion
 ------Editing files--------
 edit: . //opens file browser
+v - visual line mode
+j - select line below
+> - indent
+----
+yyp - duplicate line and paste it below
+dd - remove line
+------Moving around--------
+b // jump to the beginning of the word
+w // move to the end of the word
 ------NerdTree-------------
 m // shows menu
 ------Installing plugins----

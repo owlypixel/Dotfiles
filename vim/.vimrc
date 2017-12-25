@@ -11,6 +11,15 @@ set path+=**
 " show line numbers
 set number
 
+" 2 spaces for indentation
+set shiftwidth=2
+
+" 2 spaces for tab
+set tabstop=2
+
+" enable smart indentation
+set smartindent
+
 " highlight cursor line
 set cursorline
 
