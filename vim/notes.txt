@@ -18,6 +18,7 @@ j - select line below
 ----
 yyp - duplicate line and paste it below
 dd - remove line
+dit - delete content inside tag
 ------Moving around--------
 b // jump to the beginning of the word
 w // move to the end of the word
