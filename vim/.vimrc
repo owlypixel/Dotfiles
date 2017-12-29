@@ -20,6 +20,9 @@ set tabstop=2
 " enable smart indentation
 set smartindent
 
+" higlight matching brackets 
+set showmatch
+
 " highlight cursor line
 set cursorline
 
