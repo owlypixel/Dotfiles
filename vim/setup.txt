@@ -23,6 +23,11 @@ Install Vim-Airline
 
 $ git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
 
+Install Ctrlp
+
+$ cd ~/.vim
+$ git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
+
 Set cursor in terminal profile preferences to I-Beam
 
 Copy your personal .vimrc file to the home directory 

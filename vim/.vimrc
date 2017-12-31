@@ -26,9 +26,18 @@ set showmatch
 " highlight cursor line
 set cursorline
 
+" show hidden files in NerdTree
+let NERDTreeShowHidden=1
+
+" disable swap file creation
+set noswapfile
+
 " start pathogen
 execute pathogen#infect()
 call pathogen#helptags()
+
+" setup ctrlp
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 " mappings
 map <C-b> :NERDTreeToggle<CR>
