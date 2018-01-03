@@ -5,6 +5,12 @@ set nocompatible
 syntax enable
 filetype plugin on
 
+" enable 256 color mode
+set t_Co=256
+
+" enable dracula color scheme
+color dracula
+
 " enable fuzzy search in subdirectories
 set path+=**
 
