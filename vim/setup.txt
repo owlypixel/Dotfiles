@@ -34,4 +34,7 @@ Copy your personal .vimrc file to the home directory
 $ cd ~
 $ curl -O https://raw.githubusercontent.com/owlypixel/Dotfiles/master/vim/.vimrc
 
+Fix line endings if needed
+$ sed -i 's/\r//g' .vimrc
+
 Enjoy your beautiful and functional editor! 
