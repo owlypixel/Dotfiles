@@ -32,6 +32,9 @@ set showmatch
 " highlight cursor line
 set cursorline
 
+" search and highlight on input
+set incsearch
+
 " show hidden files in NerdTree
 let NERDTreeShowHidden=1
 
