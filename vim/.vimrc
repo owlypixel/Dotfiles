@@ -26,6 +26,9 @@ set tabstop=2
 " enable smart indentation
 set smartindent
 
+" set paste mode toggle key
+set pastetoggle=<F2>
+
 " higlight matching brackets 
 set showmatch
 

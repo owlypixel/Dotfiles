@@ -28,6 +28,10 @@ Install Ctrlp
 $ cd ~/.vim
 $ git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
 
+Install Bufferline
+
+$ git clone https://github.com/bling/vim-bufferline ~/.vim/bundle/vim-bufferline
+
 Set cursor in terminal profile preferences to I-Beam
 
 Copy your personal .vimrc file to the home directory 

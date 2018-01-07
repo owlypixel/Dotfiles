@@ -2,9 +2,11 @@
 On Ubuntu my .vimrc file was located in /usr/share/vim/vimrc
 set path? // check what's in the PATH variable
 :find <name> // search for a file
+------Buffers---------------
 :ls // list buffers 
 :b <partial> //	display the first buffer matching the partial name (or press Tab for name completion)
 :bd // delete buffer
+:b# // switch between last visited files
 vim . // open current directory in vim
 Ctrl+w w // move between windows 
 ------Autocompletion--------
@@ -15,7 +17,9 @@ edit: . //opens file browser
 v - visual line mode
 j - select line below
 > - indent
-----
+------Edit multiline-------
+Ctrl+v, select area, Shift+I, type new text, Esc
+--------------------------- 
 yyp - duplicate line and paste it below
 dd - remove line
 dit - delete content inside tag
