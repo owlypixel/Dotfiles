@@ -6,7 +6,7 @@ $ sudo apt-get install vim
 
 Install Vim package manager (Pathogen)
 
-$ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+$ mkdir -p ~/.vim/autoload ~/.vim/bundle 
 $ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 Install NERDTree
@@ -16,6 +16,7 @@ $ git clone https://github.com/scrooloose/nerdtree.git
 
 Install Dracula color theme and move the dracula.vim file into ~/.vim/colors
 
+$ mkdir ~/.vim/colors
 $ cd ~/.vim/colors
 $ curl -O https://raw.githubusercontent.com/dracula/vim/master/colors/dracula.vim
 
@@ -35,6 +36,7 @@ $ git clone https://github.com/bling/vim-bufferline ~/.vim/bundle/vim-bufferline
 Set cursor in terminal profile preferences to I-Beam
 
 Copy your personal .vimrc file to the home directory 
+
 $ cd ~
 $ curl -O https://raw.githubusercontent.com/owlypixel/Dotfiles/master/vim/.vimrc
 
