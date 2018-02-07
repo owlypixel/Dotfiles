@@ -53,3 +53,15 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 " mappings
 map <C-b> :NERDTreeToggle<CR>
+
+" moving between buffers
+map <C-Left> <Esc>:bprev<CR>
+map <C-Right> <Esc>:bnext<CR>
+
+" move lines up and down in normal, insert, visual modes
+nnoremap <C-j> :m .+1<CR>==
+nnoremap <C-k> :m .-2<CR>==
+inoremap <C-j> <Esc>:m .+1<CR>==gi
+inoremap <C-k> <Esc>:m .-2<CR>==gi
+vnoremap <C-j> :m '>+1<CR>gv=gv
+vnoremap <C-k> :m '<-2<CR>gv=gv
