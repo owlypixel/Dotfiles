@@ -44,6 +44,9 @@ let NERDTreeShowHidden=1
 " disable swap file creation
 set noswapfile
 
+" don't show mode 
+set noshowmode
+
 " start pathogen
 execute pathogen#infect()
 call pathogen#helptags()
