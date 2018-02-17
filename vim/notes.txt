@@ -9,6 +9,9 @@ set path? // check what's in the PATH variable
 :b# // switch between last visited files
 vim . // open current directory in vim
 Ctrl+w w // move between windows 
+------Clipboard-------------
+:set paste / paste from clipboard / ESC / :set nopaste
+or use <F2> to toggle paste mode
 ------Autocompletion--------
 Ctrl+N // autocompletion
 Ctrl+X, Ctrl+F // file name completion
