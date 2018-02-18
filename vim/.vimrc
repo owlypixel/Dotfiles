@@ -54,6 +54,14 @@ call pathogen#helptags()
 " setup ctrlp
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
+" airline settings
+let g:airline#extensions#tabline#enabled = 0 
+let g:airline#extensions#branch#enabled = 1 
+let g:airline_section_warning = '' 
+let g:airline_section_y = '' 
+let g:airline_section_x = '' 
+set laststatus=2 " for airline
+
 " mappings
 map <C-b> :NERDTreeToggle<CR>
 
