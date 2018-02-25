@@ -19,7 +19,7 @@ Ctrl+X, Ctrl+F // file name completion
 edit: . //opens file browser
 v - visual line mode
 j - select line below
-> - indent
+Shift + > - indent
 ------Edit multiline-------
 Ctrl+v, select area, Shift+I, type new text, Esc
 --------------------------- 
