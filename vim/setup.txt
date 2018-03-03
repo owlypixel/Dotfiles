@@ -29,6 +29,11 @@ Install Ctrlp
 $ cd ~/.vim
 $ git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
 
+Install vim-multiple-cursors
+
+$ cd ~/.vim/bundle
+$ git clone https://github.com/terryma/vim-multiple-cursors.git
+
 Install Bufferline
 
 $ git clone https://github.com/bling/vim-bufferline ~/.vim/bundle/vim-bufferline
