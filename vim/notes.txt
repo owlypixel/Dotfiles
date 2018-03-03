@@ -22,6 +22,8 @@ j - select line below
 Shift + > - indent
 ------Edit multiline-------
 Ctrl+v, select area, Shift+I, type new text, Esc
+------Multiple cursors-----
+Ctrl+n, c
 --------------------------- 
 yyp - duplicate line and paste it below
 dd - remove line
