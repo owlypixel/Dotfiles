@@ -1,0 +1,21 @@
+{
+    "editor.matchBrackets": true,
+    "editor.tabSize": 2,
+    "editor.fontFamily": "Fira Code, Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "sublimeTextKeymap.promptV3Features": true,
+    "window.menuBarVisibility": "default",
+    "material-icon-theme.folders.icons": "blue",
+    "telemetry.enableTelemetry": false,
+    "window.zoomLevel": 0,
+    "files.associations": {
+        "*.vue": "vue"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.statusBar.feedback.visible": false,
+    "terminal.integrated.copyOnSelection": true,
+    "explorer.openEditors.visible": 0,
+    "extensions.ignoreRecommendations": true,
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "files.autoSave": "afterDelay"
+}

@@ -1,0 +1,21 @@
+//general tips
+
+toggle sidebar: Ctrl + b
+open integrated terminal: Ctrl + `
+toggle bottom window: Ctrl + J
+mobe between panels Ctrl + 1, Ctrl + 2
+close file: ctrl + W
+zen mode
+middle button selection
+selection - > expand selection. (Alt+Shift+right)
+
+terminal:
+- split terminal Ctrl + \
+
+
+// How to export and import extensions:
+ 
+code --list-extensions > extensions.list
+cat ./extensions.list |% { code --install-extension $_}
+
+
