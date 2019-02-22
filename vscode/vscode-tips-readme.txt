@@ -8,6 +8,9 @@ close file: ctrl + W
 zen mode
 middle button selection
 selection - > expand selection. (Alt+Shift+right)
+------
+Split lines: Ctrl+Shift+L
+
 
 terminal:
 - split terminal Ctrl + \
@@ -18,4 +21,7 @@ terminal:
 code --list-extensions > extensions.list
 cat ./extensions.list |% { code --install-extension $_}
 
+// Import extensions on Windows:
+for /F "tokens=*" %A in (extensions.list) do code --install-extension %A
+!NOTE: You may need to change encoding of the extensions.list file before issuing this command.
 
