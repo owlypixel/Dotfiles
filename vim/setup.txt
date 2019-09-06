@@ -16,7 +16,8 @@ $ git clone https://github.com/scrooloose/nerdtree.git
 
 Install Dracula color theme 
 
-$ git clone https://github.com/dracula/vim.git ~/.vim/bundle
+$ mkdir  ~/.vim/bundle/dracula-theme  && cd ~/.vim/bundle/dracula-theme
+$ git clone https://github.com/dracula/vim.git .
 
 Install Vim-Airline
 
