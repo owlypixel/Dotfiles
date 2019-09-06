@@ -1,3 +1,8 @@
+" set path for plugins
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+set runtimepath^=~/.vim/bundle/vim-airline/plugin/airline.vim
+set runtimepath^=~/.vim/bundle/dracula-theme
+
 " break compatibility with old Vi editor
 set nocompatible
 
