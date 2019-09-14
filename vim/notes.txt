@@ -33,8 +33,17 @@ b // jump to the beginning of the word
 w // move to the end of the word
 ------NerdTree-------------
 m // shows menu
+------Create a file or folder using Nerd Tree-------
+select folder in the tree
+press m
+press a
+enter file name, press enter
 ------Installing plugins----
 --Pathogen-----------------
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ---------------------------
+------Run Shell commands from Vim ---------
+:! <command> 
+------List previous commands-----------
+: up/down Arrow
