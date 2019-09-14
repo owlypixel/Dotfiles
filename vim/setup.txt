@@ -38,6 +38,7 @@ Install Bufferline
 $ git clone https://github.com/bling/vim-bufferline ~/.vim/bundle/vim-bufferline
 
 Set cursor in terminal profile preferences to I-Beam
+Change terminal font to Consolas to fix missing folder arrows
 
 Copy your personal .vimrc file to the home directory 
 
