@@ -21,6 +21,10 @@ terminal:
 code --list-extensions > extensions.list
 cat ./extensions.list |% { code --install-extension $_}
 
+// Import extension on Ubuntu
+- Convert extensions list from Windows format to Unix (resave in VSCode)
+cat extensions.list | grep -v '^#' | xargs -L1 code --install-extension
+
 // Import extensions on Windows:
 for /F "tokens=*" %A in (extensions.list) do code --install-extension %A
 !NOTE: You may need to change encoding of the extensions.list file before issuing this command.
