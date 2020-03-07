@@ -46,6 +46,9 @@ set incsearch
 " show hidden files in NerdTree
 let NERDTreeShowHidden=1
 
+" autoquit if only NerdTree is open
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
 " disable swap file creation
 set noswapfile
 

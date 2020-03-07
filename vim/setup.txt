@@ -49,3 +49,6 @@ Fix line endings if needed
 $ sed -i 's/\r//g' .vimrc
 
 Enjoy your beautiful and functional editor! 
+
+Automated install:
+sudo curl https://raw.githubusercontent.com/owlypixel/Dotfiles/master/vim/vim_install.sh | bash
