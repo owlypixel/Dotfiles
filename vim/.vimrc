@@ -72,6 +72,8 @@ set laststatus=2 " for airline
 
 " mappings
 map <C-b> :NERDTreeToggle<CR>
+vnoremap <C-c> "*y :let @+=@*<CR>
+map <C-v> "+P
 
 " moving between buffers
 map <C-Left> <Esc>:bprev<CR>
