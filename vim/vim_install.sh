@@ -1,6 +1,11 @@
 #!/bin/sh
 
-apt-get install vim
+if which vim; then
+	echo "Vim is already installed"
+else
+	echo "Installing vim"
+	apt-get install -y vim
+fi
 mkdir -p ~/.vim/autoload ~/.vim/bundle
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 cd ~/.vim/bundle

@@ -73,7 +73,7 @@ set laststatus=2 " for airline
 " mappings
 map <C-b> :NERDTreeToggle<CR>
 vnoremap <C-c> "*y :let @+=@*<CR>
-map <C-v> "+P
+" map <C-v> "+P
 
 " moving between buffers
 map <C-Left> <Esc>:bprev<CR>
@@ -86,3 +86,9 @@ inoremap <C-j> <Esc>:m .+1<CR>==gi
 inoremap <C-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-j> :m '>+1<CR>gv=gv
 vnoremap <C-k> :m '<-2<CR>gv=gv
+
+" bottom scroll offset
+set scrolloff=8
+
+" relative line numbers
+set relativenumber
